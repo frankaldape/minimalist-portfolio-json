@@ -1,43 +1,103 @@
-# minimalist-portfolio-json
 
-A clean, minimalistic, ready to print resume website, where I show my professional experience, projects, certifications and education, built with [Astro](https://astro.build/).
 
-## 🥃 Preview
+<div align="center">
+<img src="logo.png" height="90px" width="auto" /> 
+<h2>
+    <em>Résumé</em> minimalista maquetado para web y pdf
+</h2>
+<p>
+Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
+</p>
 
-![Minismalist Resume Preview](https://github.com/frankaldape/minimalist-portfolio-json/assets/114124075/7dce18f0-864a-47bf-9f81-e5df738f5d0f)
 
-## 🔥 Features
+<p>
+Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
 
-- ✅ Print-Ready
-- ✅ Multilanguage
-- ✅ 100 / 100 Ligthhouse score
-- ✅ SEO Optimized
-- ✅ Keyboard Commands
-- ✅ Web View Transitions
-- ✅ Customizable without code
-- ✅ Robots.txt
-- ✅ Sitemap
-- ⚒️ Dark Mode (Coming soon)
+</p>
 
-## ⚓ Lighthouse Score 100/100
+</div>
 
-![Lighthouse score](https://github.com/frankaldape/minimalist-portfolio-json/assets/114124075/52fc59c6-4c13-421f-bbc4-2687a160b6b3)
+<div align="center">
+    <a href="#🚀-empezar">
+        Empezar
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🧞-comandos">
+        Comandos
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🔑-licencia">
+        Licencia
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="https://frankaldape.com">
+        Personal
+    </a>
+   
+</div>
 
-## 🚀 Getting Started
+<p></p>
 
-Clone this repository to your local machine using Git.
+<div align="center">
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying at `localhost:4321` |
+![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/midudev/minimalist-portfolio-json)
+![GitHub issues](https://img.shields.io/github/issues/midudev/minimalist-portfolio-json)
+![GitHub forks](https://img.shields.io/github/forks/midudev/minimalist-portfolio-json)
+![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/minimalist-portfolio-json)
 
-## ✨ Credits & Thanks
+</div>
 
-Inspired by [Bartosz Jarocki](https://github.com/BartoszJarocki) design and [Midudev](https://github.com/midudev) youtube video.
- 
-## 📃 License
+<img src="portada.png"></img>
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## 🛠️ Stack
+
+- [**Astro**](https://astro.build/) - El framework web de la nueva época.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+
+
+## 🚀 Empezar
+
+### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
+
+
+- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+
+```bash
+# Activa pnpm en MacOS, WSL & Linux:
+corepack enable
+corepack prepare pnpm@latest --activate
+
+# Inicializa el proyecto
+pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
+```
+
+### 2. Añade tu contenido:
+Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
+### 3. Lanza el servidor de desarrollo:
+
+```bash
+# Disfruta del resultado
+pnpm dev
+```
+
+
+1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
+
+
+## 🧞 Comandos
+
+|     | Comando          | Acción                                        |
+| :-- | :--------------- | :-------------------------------------------- |
+| ⚙️  | `dev` o `start` | Lanza un servidor de desarrollo local en  `localhost:4321`.  |
+| ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
+| ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
+
+
+
+## 🔑 Licencia
+
+[MIT](LICENSE.txt) - Creado por [**midudev**](https://midu.dev).
+
+Adaptado por [**frankaldape**](https://frankaldape.com).
