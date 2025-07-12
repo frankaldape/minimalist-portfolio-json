@@ -1,1 +1,1 @@
-# minimalist-resume
+# minimalist-portfolio-json
