@@ -1,0 +1,151 @@
+{
+    "basics": {
+        "name": "Frank Aldape Guzmán",
+        "label": "Ingeniero de Software | Desarrollador Frontend y Full-Stack enfocado en calidad, escalabilidad y experiencia de usuario",
+        "image": "/me.webp",
+        "email": "franck.aldape@gmail.com",
+        "phone": "+52 8120000447",
+        "url": "https://frankaldape.com",
+        "summary": [
+            {
+                "paragraph": "Soy un desarrollador apasionado por construir aplicaciones modernas, fluidas y escalables que mejoren la vida de los usuarios. Me especializo en desarrollo frontend y full-stack, aplicando buenas prácticas para entregar soluciones limpias, eficientes y sostenibles."
+            },
+            {
+                "paragraph": "He trabajado con equipos multidisciplinarios en sectores como fintech, telecomunicaciones y banca digital, combinando arquitectura de software, liderazgo técnico y gestión ágil de proyectos para maximizar el impacto de los productos."
+            },
+            {
+                "paragraph": "Me motiva mantenerme actualizado y adoptar nuevas tecnologías para optimizar procesos, mejorar el rendimiento y aportar valor tanto a nivel técnico como estratégico."
+            }
+        ],
+        "location": {
+            "city": "Monterrey",
+            "region": "Nuevo León"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "frankaldape",
+                "url": "https://github.com/frankaldape"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "frankaldape",
+                "url": "https://www.linkedin.com/in/frank-aldape/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "A-lender",
+            "position": "Senior Software Developer",
+            "startDate": "2024-09-01",
+            "endDate": null,
+            "summary": "Encargado del desarrollo y optimización de aplicaciones frontend. Diseño de arquitecturas escalables, implementación de buenas prácticas y estandarización del código dentro del equipo técnico.",
+            "highlights": [
+                ""
+            ],
+            "isRemote": false
+        },
+        {
+            "name": "Millicom (Tigo)",
+            "position": "Software Developer",
+            "startDate": "2022-08-15",
+            "endDate": "2024-08-30",
+            "summary": "Desarrollé soluciones móviles con Flutter y Dart, integré APIs REST y funciones serverless con Python y AWS Lambda, y optimicé el rendimiento general de las aplicaciones en producción.",
+            "highlights": [
+                ""
+            ],
+            "isRemote": true
+        },
+        {
+            "name": "Grupo Financiero Banorte",
+            "position": "Gerente Internet y Red Social",
+            "startDate": "2022-01-15",
+            "endDate": "2022-08-30",
+            "summary": "Lideré proyectos tecnológicos para productos digitales bancarios. Implementé nuevas tecnologías y enfoques basados en análisis de datos para mejorar decisiones estratégicas.",
+            "highlights": [
+                ""
+            ],
+            "isRemote": false
+        },
+        {
+            "name": "Profesional Independiente",
+            "position": "Desarrollador Full Stack",
+            "startDate": "2021-07-01",
+            "endDate": "2022-01-15",
+            "summary": "Diseñé interfaces modernas con React y Angular. Construí APIs robustas con Node.js y TypeScript, además de apps móviles en React Native.",
+            "highlights": [
+                ""
+            ],
+            "isRemote": true
+        },
+        {
+            "name": "AlphaCredit Capital",
+            "position": "Desarrollador Java",
+            "startDate": "2020-01-15",
+            "endDate": "2021-06-30",
+            "summary": "Participé en el desarrollo de aplicaciones con Angular y Node.js, y en soluciones móviles con Kotlin y Java. También integré múltiples APIs para mejorar la interoperabilidad del sistema.",
+            "highlights": [
+                ""
+            ],
+            "isRemote": false
+        },
+        {
+            "name": "Apoyo Promotora",
+            "position": "Analista de Sistemas",
+            "startDate": "2015-01-15",
+            "endDate": "2020-01-15",
+            "summary": "Lideré el área de Soporte Técnico, mejorando la eficiencia operativa y satisfacción del cliente. Implementé soluciones de software para automatizar procesos internos.",
+            "highlights": [
+                ""
+            ],
+            "isRemote": false
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Tecmilenio",
+            "area": "Maestría en Administración de Negocios con Finanzas",
+            "startDate": "2022-09-01",
+            "endDate": "2024-04-01"
+        },
+        {
+            "institution": "Universidad Autónoma de Nuevo León",
+            "area": "Ingeniería en Administración de Sistemas",
+            "startDate": "2016-01-01",
+            "endDate": "2021-12-01"
+        }
+    ],
+    "skills": [
+        { "name": "JavaScript / TypeScript" },
+        { "name": "React / Angular / React Native / Flutter" },
+        { "name": "Node.js / Python / Java / Kotlin" },
+        { "name": "AWS / Lambda / REST APIs" },
+        { "name": "Arquitectura de Software" },
+        { "name": "Optimización de rendimiento" },
+        { "name": "Diseño de interfaces escalables" },
+        { "name": "Git / GitHub / GitLab" }
+    ],
+    "softskills": [
+        { "name": "Liderazgo técnico" },
+        { "name": "Comunicación efectiva" },
+        { "name": "Gestión de proyectos ágiles" },
+        { "name": "Pensamiento analítico" },
+        { "name": "Autonomía y proactividad" },
+        { "name": "Adaptabilidad tecnológica" }
+    ],
+    "projects": [
+        {
+            "name": "Kaching App",
+            "isActive": true,
+            "description": "Aplicación móvil desarrollada para los clientes de Apoyo Soluciones, que permite gestionar préstamos, realizar pagos y mantenerse al tanto de su actividad financiera en tiempo real.",
+            "highlights": [
+            "Desarrollada con React Native para rendimiento multiplataforma",
+            "Seguimiento de pagos y notificaciones en tiempo real",
+            "Autenticación segura e inicio de sesión integrado",
+            "Disponible en Google Play"
+            ],
+            "url": "https://play.google.com/store/apps/details?id=com.apoyosoluciones.appkaching"
+        }
+    ]
+}

@@ -44,14 +44,6 @@ const resumeSchema = z.object({
             endDate: z.string().date().nullable(),
         })
     ),
-    certificates: z.array(
-        z.object({
-            name: z.string(),
-            organization: z.string(),
-            date: z.string().date(),
-            url: z.string().url(),
-        })
-    ),
     skills: z.array(
         z.object({
             name: z.string(),

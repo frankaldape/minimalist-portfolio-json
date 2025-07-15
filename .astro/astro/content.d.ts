@@ -139,21 +139,24 @@ declare module 'astro:content' {
 		ReturnTypeOrOriginal<Required<ContentConfig['collections'][C]>['schema']>
 	>;
 
-	type ContentEntryMap = {};
+	type ContentEntryMap = {
+		
+	};
 
 	type DataEntryMap = {
 		"cv": {
-			"en": {
-				id: "en";
-				collection: "cv";
-				data: InferEntrySchema<"cv">
-			};
-			"es": {
-				id: "es";
-				collection: "cv";
-				data: InferEntrySchema<"cv">
-			};
-		};
+"en": {
+	id: "en";
+  collection: "cv";
+  data: InferEntrySchema<"cv">
+};
+"es": {
+	id: "es";
+  collection: "cv";
+  data: InferEntrySchema<"cv">
+};
+};
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
