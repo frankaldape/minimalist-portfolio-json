@@ -138,7 +138,7 @@
         {
             "name": "Kaching App",
             "isActive": true,
-            "description": "A mobile app built for Apoyo Soluciones clients, enabling users to manage their loans, make payments, and stay updated with their financial activities in real time.",
+            "description": "Mobile point-of-sale (POS) application developed for entrepreneurs, independent sellers, and local businesses. Kaching! allows users to manage products, customers, orders, commissions, and deliveries directly from their phone, making it easy to sell anytime, anywhere.",
             "highlights": [
                 "Developed with React Native for cross-platform performance",
                 "Real-time payment tracking and notifications",

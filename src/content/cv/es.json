@@ -138,12 +138,12 @@
         {
             "name": "Kaching App",
             "isActive": true,
-            "description": "Aplicación móvil desarrollada para los clientes de Apoyo Soluciones, que permite gestionar préstamos, realizar pagos y mantenerse al tanto de su actividad financiera en tiempo real.",
+            "description": "Aplicación móvil punto de venta (POS) desarrollada para emprendedores, vendedores independientes y negocios locales. Kaching! permite gestionar productos, clientes, pedidos, comisiones y entregas directamente desde el celular, facilitando ventas en cualquier momento y lugar.",
             "highlights": [
-            "Desarrollada con React Native para rendimiento multiplataforma",
-            "Seguimiento de pagos y notificaciones en tiempo real",
-            "Autenticación segura e inicio de sesión integrado",
-            "Disponible en Play Store y Google Play"
+                "Desarrollada con React Native para rendimiento multiplataforma",
+                "Seguimiento de pagos y notificaciones en tiempo real",
+                "Autenticación segura e inicio de sesión integrado",
+                "Disponible en Play Store y Google Play"
             ],
             "url": "https://kaching.mx/#download"
         }
