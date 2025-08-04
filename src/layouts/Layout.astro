@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 import "@fontsource-variable/inter";
 import "@fontsource-variable/jetbrains-mono";
 import { ViewTransitions } from "astro:transitions";
@@ -49,6 +50,7 @@ const t = useTranslations(lang);
         {noindex && <meta name="robots" content="noindex,nofollow" />}
 
         <ViewTransitions />
+        <SpeedInsights />
     </head>
     <body>
         <slot />
